@@ -1,9 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import { FirstComponent } from './Pages/FirstComponent';
+import { Routes } from "./Router";
 
-function App() {
-  return <FirstComponent />
-}
+const App = () => <Routes />;
 
 export default App;
