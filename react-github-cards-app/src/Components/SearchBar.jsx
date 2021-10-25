@@ -26,9 +26,9 @@ export const SearchBar = () => {
   return (
     <SearchBarContainer>
       <StyledSearchBar></StyledSearchBar>
-      <button onClick={handleOnClick}>
+      <Button onClick={handleOnClick}>
         <StyledSearchIcon></StyledSearchIcon>
-      </button>
+      </Button>
     </SearchBarContainer>
   );
 };
@@ -50,4 +50,9 @@ const StyledSearchBar = styled.input`
 
 const StyledSearchIcon = styled(SearchIcon)`
   height: 100%;
+`;
+
+const Button = styled.button`
+  height: 100%;
+  border: none;
 `;

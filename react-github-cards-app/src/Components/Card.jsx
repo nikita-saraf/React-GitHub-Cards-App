@@ -14,6 +14,7 @@ export const Card = () => {
 const CardandCaption = () => {
   return (
     <div>
+      <br />
       <StyledCard>card</StyledCard>
       <StyledCardCaption>caption</StyledCardCaption>
     </div>
@@ -21,14 +22,14 @@ const CardandCaption = () => {
 };
 
 const StyledCard = styled.div`
-  width: 100px;
+  width: 200px;
   height: 100px;
   border-radius: 5px;
   background-color: blue;
 `;
 
 const StyledCardCaption = styled.div`
-  width: 100px;
+  width: 200px;
   height: 30px;
   border-radius: 5px;
   background-color: pink;
